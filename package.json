@@ -2,6 +2,7 @@
   "name": "geek-galaxy",
   "version": "0.1.0",
   "private": true,
+  "type" : "module",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,8 +16,9 @@
     "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
+    "@babel/core": "^7.25.2",
     "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.25.4",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-pwa": "~5.0.0",

@@ -1,4 +1,6 @@
 module.exports = {
+
+  
   root: true,
   env: {
     node: true
@@ -8,7 +10,9 @@ module.exports = {
     'eslint:recommended'
   ],
   parserOptions: {
-    parser: '@babel/eslint-parser'
+    requireConfigFile: false,
+    ecmaVersion: 2020, // Ensure you're targeting a proper ECMAScript version
+    sourceType: 'module'
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
